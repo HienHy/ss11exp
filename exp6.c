@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<conio.h>
 int main(){
     int i,n=0;
     int item;
@@ -10,7 +11,7 @@ int main(){
     do{
         printf("String %d : ", n+1);
         scanf("%s",x[n]);}
-        while(strcmp(x[n++],"END"));
+    ?while(strcmp(x[n++],"END"));
         n=n-1;
         for (item=0;item<n-1;++item)
         {
